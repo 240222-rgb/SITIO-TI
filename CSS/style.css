@@ -12,4 +12,45 @@ body{
     border-radius: 10px;
     padding: 20px;
     box-shadow: 15px 15px 5px rgba(197, 7, 181, 0.5);
+    display: flex;
+}
+.logo{
+    background-color: blueviolet;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+    width: 100%;
+    height: auto;
+    
+}
+.menu{
+    background-color: rgb(255, 145, 0);
+    width: 70%;
+}
+.menu ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    background-color: rgb(251, 255, 0);
+}
+.menu ul li{
+    margin: 0%;
+    padding: 15px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover{
+    background-color: #f8cce4;
+    padding: 15px 20px;
+}
+.redes{
+    background-color: rgb(255, 0, 221);
+    width: 30%;
 }
