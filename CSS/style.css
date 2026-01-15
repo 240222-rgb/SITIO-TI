@@ -6,8 +6,8 @@ body{
 }
 #encabezado{
     background-color: #56cfe1;
-    height: 150px;
-    width: 80%;
+    height: 70px;
+    width: 100%;
     margin: 0 auto;
     border-radius: 10px;
     padding: 20px;
@@ -16,7 +16,7 @@ body{
 }
 .logo{
     background-color: blueviolet;
-    width: 15%;
+    width: 9%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,15 +28,17 @@ body{
     
 }
 .menu{
-    background-color: #7209b7;
-    width: 70%;
+    background-color: #56cfe1;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .menu ul{
     list-style: none;
     padding: 0%;
     margin: 0%;
     display: flex;
-    background-color: #ef8fcd;
+    background-color: #56cfe1;
 }
 .menu ul li{
     margin: 0%;
@@ -51,7 +53,7 @@ body{
     padding: 15px 20px;
 }
 .redes{
-    background-color: #f72585;
+    background-color: #56cfe1;
     width: 30%;
 }
 
@@ -93,30 +95,62 @@ body{
     text-align: center;
 }
 
+
 .seccion{
     width: 80%;
     margin: 30px auto;
     height: 300px;
-    background-color: #56cfe1;
+
+    background-image:
+        linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)),
+        url("../imagenes/seccion.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
 }
+
+
+
 .contenido-seccion{
     width: 80%;
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 
 
 .footer{
+    width: 100%;
+    background-color: #f72585;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer-contenido{
     width: 80%;
-    margin: 30px auto;
+    margin: auto;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    color: white;
 }
+.col h4{
+    margin-bottom: 0px;
+}
+
+.col p{
+    margin: 0px 0;
+}
+body{
+    padding-bottom: 140px;
+}
+
 
 .pie{
     width: 48%;
