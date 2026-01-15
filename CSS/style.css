@@ -68,14 +68,30 @@ body{
 
 .card{
     width: 30%;
-    height: 200px;
     background-color: #f72585;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
 }
 
+.card img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h3{
+    margin: 10px 0 5px;
+}
+
+.card p{
+    font-size: 14px;
+    text-align: center;
+}
 
 .seccion{
     width: 80%;
@@ -87,6 +103,12 @@ body{
     align-items: center;
     border-radius: 10px;
 }
+.contenido-seccion{
+    width: 80%;
+    text-align: center;
+    color: black;
+}
+
 
 
 .footer{
